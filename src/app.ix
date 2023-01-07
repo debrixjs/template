@@ -1,0 +1,9 @@
+// Syntax for imports and bindings are WIP!
+
+using model from 'self.model.ts'
+using binder onclick from './binders/onclick'
+
+<div>
+    <p>Count is {count}</p>
+    <button (onclick: () => increment())>Increment</button>
+</div>

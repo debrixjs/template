@@ -1,0 +1,19 @@
+{
+  "name": "debrix-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "debrix": "0.1.0-alpha.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "vite": "^3.2.5",
+    "vite-plugin-debrix": "0.1.0-alpha.1"
+  }
+}

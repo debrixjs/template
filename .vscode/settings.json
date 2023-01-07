@@ -1,0 +1,9 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "files.associations": {
+    "*.ix": "html"
+  },
+  "explorer.fileNesting.patterns": {
+    "*.ix": "${capture}.*"
+  }
+}
